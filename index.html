@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helper Charity Foundation</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../devoir janvier/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f4f4f4;
+    }
+
+    .navbar {
+      background-color: #3a3939da;
+      position: fixed;
+      width: 100%;
+    }
+
+    .hero {
+      background-image: url('https://placehold.co/1920x1150');
+      background-size: cover;
+      height: 500px;
+      color: #333;
+      /* padding: 100px 0; */
+      text-align: center;
+      display: flex;
+      background-position: center;
+      z-index: 1000;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-top: 150px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .donate-button {
+      background-color: #28a745;
+      color: white;
+      font-weight: bold;
+    }
+
+    .donate-button:hover {
+      background-color: #218838;
+    }
+
+    .nav-link:hover{
+        color: #218838; 
+    }
+
+    .nav-link{
+        color: #ffffff; 
+    }
+
+
+    .fw-bold{
+        color: #fff;
+    }
+
+    small{
+        color: #fff;
+    }
+
+    .placeholder {
+      background-color: #e9ecef;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #6c757d;
+      font-size: 14px;
+    }
+    .mission-icon {
+      font-size: 24px;
+      color: #28a745;
+    }
+
+    .placeholder {
+      background-color: #e9ecef;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #6c757d;
+      font-size: 14px;
+    }
+    .btn-back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .btn-back-to-top:hover {
+      background-color: #218838;
+    }
+
+    .subscribe-input {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .placeholder-image {
+      background-color: #d6d8db;
+      color: #6c757d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 300px;
+      font-size: 36px;
+    }
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      background-image: url('https://placehold.co/1920x1056');
+      background-position: center;
+      height: 600px;
+    }
+    footer a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="logo.png" alt="Helper Logo" style="height: 40px; margin-right: 10px;">
+        <div>
+          <span class="fw-bold">Helper</span><br>
+          <small>Charity Foundation</small>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Typography</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacts</a>
+          </li>
+        </ul>
+        <a href="#" class="btn donate-button ms-5">Donate</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero-->
+  <section class="hero">
+    <div class="container">
+      <h1>Help The Children</h1>
+      <p>
+        We do whatever it takes to make sure children don’t just survive but thrive. 
+        Helper believes that every child should be able to make their mark on their world 
+        and help build a better future.
+      </p>
+    </div>
+  </section>
+
+  <!--MAIN SECTION 1-->
+  <main class="container my-5">
+    <div class="row">
+      <!-- Left column -->
+      <div class="col-md-6">
+        <div class="mb-3">
+          <div class="placeholder" style="width: 271px; height: 191px;">271x191</div>
+        </div>
+        <div class="mb-3">
+          <div class="placeholder" style="width: 339px; height: 236px;">339x236</div>
+        </div>
+        <div class="mb-3">
+          <div class="placeholder" style="width: 271px; height: 153px;">271x153</div>
+        </div>
+      </div>
+
+      <!-- Right column -->
+      <div class="col-md-6">
+        <h2>Our Mission</h2>
+        <p>Our organization pursues several goals that can be identified as our mission. Learn more about them below:</p>
+        <ul class="list-unstyled">
+          <li class="mb-4">
+            <span class="mission-icon">&#128578;</span>
+            <strong>Saving Children</strong><br>
+            Our main mission is to save and rescue permanently displaced children.
+          </li>
+          <li class="mb-4">
+            <span class="mission-icon">&#9728;</span>
+            <strong>Peace On The Planet</strong><br>
+            By working with our partners, we aim to establish peaceful relationships.
+          </li>
+          <li>
+            <span class="mission-icon">&#128104;&#8205;&#127806;</span>
+            <strong>Care & Protection</strong><br>
+            We provide global care and protection to support children all over the world.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <!--MAIN SECTION 2-->
+  <main class="container my-5">
+    <h2 class="text-center mb-4">Latest Causes</h2>
+    <p class="text-center text-muted">At Helper, there are various charity causes and projects in which you can always take part. Feel free to learn about them below or browse our website for more information.</p>
+    <div class="row">
+      <!-- Cause 1 -->
+      <div class="col-md-4 text-center">
+        <div class="placeholder" style="width: 372px; height: 396px; margin: 0 auto;">372x396</div>
+        <h5 class="mt-3">Recycling for Charity</h5>
+        <p class="text-success">$92,310 <span style="color: #000;">of $100,000 RAISED</span></p>
+      </div>
+      <!-- Cause 2 -->
+      <div class="col-md-4 text-center">
+        <div class="placeholder" style="width: 372px; height: 396px; margin: 0 auto;">372x396</div>
+        <h5 class="mt-3">Clean Water For People</h5>
+        <p class="text-success">$52,350 <span style="color: #000;">of $55,000 RAISED</span></p>
+      </div>
+      <!-- Cause 3 -->
+      <div class="col-md-4 text-center">
+        <div class="placeholder" style="width: 372px; height: 396px; margin: 0 auto;">372x396</div>
+        <h5 class="mt-3">Children's Education</h5>
+        <p class="text-success">$42,280 <span style="color: #000;">of $41,000 RAISED</span></p>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+
+<br><br>
+  <footer>
+    <br><br>
+        <h2>Subscribe to Stay Informed</h2>
+        <form class="subscribe-input mt-4">
+          <div class="input-group">
+            <input type="email" class="form-control" placeholder="Your email" required>
+            <button class="btn btn-success" type="submit">Subscribe</button>
+          </div>
+        </form>
+      <br><br><br><br><br><br><br><br>
+    <div class="container">
+        <img src="logo.png" alt="Helper Logo" style="height: 40px; margin-right: 10px;">
+      <p>HELPER <span class="text-success">Charity Foundation</span></p>
+      <p>
+        <a href="#">About Us</a> | 
+        <a href="#">Causes</a> | 
+        <a href="#">Gallery</a> | 
+        <a href="#">Team</a> | 
+        <a href="#">Contacts</a>
+      </p>
+      <div>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">Pinterest</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="btn-back-to-top" onclick="scrollToTop()">↑</button>
+
+  <script>
+    // Scroll to top function
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
